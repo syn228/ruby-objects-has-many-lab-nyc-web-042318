@@ -23,6 +23,7 @@ class Author
 
   def add_post_by_title(title)
     @posts << Post.new(title)
+    binding.pry
     @@post_count += 1
     
   end
