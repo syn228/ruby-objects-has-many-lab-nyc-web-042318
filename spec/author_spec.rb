@@ -41,7 +41,7 @@ describe "Author" do
         # binding.pry
         expect(betty.posts.last.title).to eq("My Great Blog Post")
         expect(betty.posts.last.author).to eq(betty)
-        binding.pry
+        
       end
     end
 
