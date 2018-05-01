@@ -25,8 +25,8 @@ class Author
 
   def add_post_by_title(title)
     @posts << Post.new(title)
-    @post.author_name
     @@post_count += 1
+    binding.pry
   end
 
 
